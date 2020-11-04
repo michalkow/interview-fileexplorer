@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About
+
+The project uses the standard Create React App without any other external or 3rd party libraries.
+I created 4 React functional components:
+Breadcrumbs / Breadcrumb - responsible for displaying path;
+Files / File - responsible for displaying files and directories in the current path;
+All the app logic is defined in App.js file using hooks.
+I defined constants and api (using fetch) in lib folder.
+
 ## Available Scripts
 
 In the project directory, you can run:
