@@ -1,0 +1,33 @@
+.File {
+  height: 100px;
+  width: 100px;
+  display: block;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin: 1rem;
+}
+
+.File img {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+
+.File span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.File:not([disabled]):hover {
+  cursor: pointer;
+  background: #404040;
+}
